@@ -1,0 +1,71 @@
+{
+  "name": "@onurege3467/math",
+  "version": "1.0.0",
+  "description": "Comprehensive advanced mathematics library",
+  "main": "dist/index.cjs",
+  "module": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js",
+      "require": "./dist/index.cjs"
+    },
+    "./core": "./dist/core/index.js",
+    "./arithmetic": "./dist/arithmetic/index.js",
+    "./statistics": "./dist/statistics/index.js",
+    "./probability": "./dist/probability/index.js",
+    "./linear-algebra": "./dist/linear-algebra/index.js",
+    "./trigonometry": "./dist/trigonometry/index.js",
+    "./complex-numbers": "./dist/complex-numbers/index.js",
+    "./polynomials": "./dist/polynomials/index.js",
+    "./geometry": "./dist/geometry/index.js",
+    "./number-theory": "./dist/number-theory/index.js",
+    "./combinatorics": "./dist/combinatorics/index.js",
+    "./calculus": "./dist/calculus/index.js",
+    "./optimization": "./dist/optimization/index.js",
+    "./numerical-methods": "./dist/numerical-methods/index.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "test": "jest",
+    "test:watch": "jest --watch",
+    "test:coverage": "jest --coverage",
+    "lint": "eslint src --ext .ts",
+    "lint:fix": "eslint src --ext .ts --fix",
+    "format": "prettier --write src",
+    "format:check": "prettier --check src",
+    "typecheck": "tsc --noEmit",
+    "clean": "rimraf dist coverage",
+    "prepublishOnly": "npm run clean && npm run build && npm test"
+  },
+  "keywords": [
+    "math",
+    "mathematics",
+    "statistics",
+    "linear-algebra",
+    "calculus",
+    "probability",
+    "numerical-methods",
+    "geometry",
+    "complex-numbers",
+    "trigonometry",
+    "optimization"
+  ],
+  "author": "onurege3467",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/jest": "^29.5.11",
+    "@types/node": "^20.10.5",
+    "@typescript-eslint/eslint-plugin": "^6.15.0",
+    "@typescript-eslint/parser": "^6.15.0",
+    "eslint": "^8.56.0",
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-plugin-prettier": "^5.1.2",
+    "jest": "^29.7.0",
+    "prettier": "^3.1.1",
+    "rimraf": "^5.0.5",
+    "ts-jest": "^29.1.1",
+    "typescript": "^5.3.3"
+  }
+}

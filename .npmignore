@@ -1,0 +1,54 @@
+# Source files (only dist is needed)
+src/
+tests/
+*.test.ts
+*.spec.ts
+
+# Configuration files
+tsconfig.json
+jest.config.js
+.eslintrc.js
+.prettierrc
+.github/
+
+# Development files
+.gitignore
+.gitattributes
+CONTRIBUTING.md
+CHANGELOG.md
+
+# Documentation (keep README.md)
+docs/
+API.md
+
+# Build tools
+scripts/
+
+# IDE files
+.vscode/
+.idea/
+
+# Test coverage
+coverage/
+.nyc_output/
+
+# Logs
+*.log
+
+# Environment files
+.env*
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+
+# CI/CD
+.github/
+.travis.yml
+.gitlab-ci.yml
+azure-pipelines.yml
