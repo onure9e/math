@@ -10,7 +10,6 @@
 <p align="center">
   <img src="https://img.shields.io/badge/ESM%2FCJS-Dual%20Support-orange?style=for-the-badge" alt="Module Support">
   <img src="https://img.shields.io/badge/coverage-100%25-brightgreen?style=for-the-badge" alt="Coverage">
-  <img src="https://img.shields.io/github/actions/workflow/status/onure9e/math/ci.yml?style=for-the-badge&logo=github&label=CI" alt="CI Status">
 </p>
 
 <p align="center">
